@@ -20,4 +20,4 @@
 // console.log(b)
 
 
-const a= 5+10
+// const a= 5+10

@@ -1,0 +1,35 @@
+.toaster{
+    position: fixed;
+    top: 20px;
+    right: -150px;
+    background-color: white;
+    animation: toaster_active 3s;
+    width: 150px;
+    height: 30px;
+    padding: 15px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.toaster_hide{
+    display: none;
+}
+li{
+    display: flex;
+}
+@keyframes toaster_active{
+    0%{
+        right: -150px;
+    }20%{
+        right: 20px;
+    }100%{
+right: 20px;    }
+}
+
+body{
+    background-color:black;
+    color: wheat;
+}
